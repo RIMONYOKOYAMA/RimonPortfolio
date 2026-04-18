@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!headerTarget) return;
 
   try {
-    const response = await fetch("/header.html");
+    const response = await fetch("header.html");
     const html = await response.text();
     headerTarget.innerHTML = html;
   } catch (error) {

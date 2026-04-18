@@ -1,10 +1,10 @@
 const ICONS = [
-  '/assets/icon1.png',
-  '/assets/icon2.png',
-  '/assets/icon3.png',
-  '/assets/icon4.png',
-  '/assets/icon5.png',
-  '/assets/icon6.png',
+  'assets/icon1.png',
+  'assets/icon2.png',
+  'assets/icon3.png',
+  'assets/icon4.png',
+  'assets/icon5.png',
+  'assets/icon6.png',
 ];
 
 const ICON_SIZE = 40;
