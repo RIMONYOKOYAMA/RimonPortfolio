@@ -5,7 +5,7 @@ if (!hasVisited) {
 
   const loader = document.createElement('div');
   loader.id = 'loader';
-  loader.innerHTML = `<img src="assets/NameLogo.png" alt="RIMON">`;
+loader.innerHTML = `<img src="assets/NameLogo.png" alt="RIMON">`;
   document.body.appendChild(loader);
 
   document.body.style.overflow = 'hidden';
