@@ -26,19 +26,28 @@
       background: var(--bg);
       line-height: 1.35;
     }
-    body.works-page {
+body.works-page {
   background: #fff;
 }
 
-    img {
-      max-width: 100%;
-      display: block;
-    }
+body.colors-page {
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+    url('./assets/COLORSPattern.png');
+  background-repeat: repeat;
+  background-size: auto, 200px 200px;
+}
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .site-header {
   background: var(--bg);
@@ -330,17 +339,6 @@
   height: auto;
   pointer-events: none;
 }
-.colors-bg {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image: url('../assets/COLORSPattern.png');
-  background-repeat: repeat;
-  background-size: 200px 200px;
-  opacity: 0.08;
-  pointer-events: none;
-}
-
     .work-thumb {
       aspect-ratio: 1 / 1;
       border: var(--border-inner) solid var(--line);
