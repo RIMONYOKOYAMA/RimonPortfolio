@@ -39,6 +39,27 @@ body.colors-page {
   background-size: auto, 200px 200px;
 }
 
+body.arrowworld-page {
+  background: #f5b336;
+}
+
+body.arrowworld-page .arrowworld-section-panel {
+  align-self: center;
+  width: min(285px, 86%);
+  min-height: 54px;
+  padding: 14px 36px;
+  border-radius: 999px;
+  background: #3d3d3d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1.1rem, 1.65vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -331,10 +352,14 @@ a {
   display: block;
 }
 
+.work-hero--background-video .work-hero-video {
+  pointer-events: none;
+}
+
 .work-hero-logo {
   position: absolute;
   top: 24px;
-  left: 24px;
+  right: 24px;
   width: 280px;
   height: auto;
   pointer-events: none;
