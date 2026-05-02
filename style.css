@@ -43,7 +43,16 @@ body.arrowworld-page {
   background: #f5b336;
 }
 
-body.arrowworld-page .arrowworld-section-panel {
+body.pieceofworld-page {
+  background: #5756d5;
+}
+
+body.demonsdinner-page {
+  background: #71347f;
+}
+
+body.arrowworld-page .arrowworld-section-panel,
+.work-section-panel {
   align-self: center;
   width: min(285px, 86%);
   min-height: 54px;
@@ -58,6 +67,16 @@ body.arrowworld-page .arrowworld-section-panel {
   font-weight: 700;
   line-height: 1.25;
   text-align: center;
+}
+
+body.pieceofworld-page .work-section-panel {
+  background: #ffafbe;
+  color: #5756d5;
+}
+
+body.demonsdinner-page .work-section-panel {
+  background: #fff;
+  color: #71347f;
 }
 
 img {
@@ -336,6 +355,13 @@ a {
   height: auto;
   display: block;
 }
+
+.work-detail-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .work-hero {
   position: relative;
   width: 100vw;
